@@ -1,0 +1,31 @@
+.Btn {
+  border: none;
+  background-color: #66837e;
+  color: white;
+  align-items: center;
+  width: 130px;
+  height: 50px;
+  font-size: 22px;
+  font-family: sans-serif;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.Btn--secondary {
+  background-color: white;
+  color: #66837e;
+  border: 2px solid #66837e;
+}
+.Btn--noBorder {
+  border: "none";
+}
+
+.Btn:hover {
+  background-color: #556f6d;
+  color: #e0f0e0;
+}
+
+.Btn:active {
+  background-color: #445a57;
+  color: #c0d0d0;
+}

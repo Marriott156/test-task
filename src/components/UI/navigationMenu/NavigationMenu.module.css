@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  gap: 30px;
+  position: relative;
+}
+
+.emptySpace {
+  margin-right: 60px;
+  display: flex;
+  margin-left: auto;
+}
+
+.navigationMenu {
+  width: 390px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 30px;
+  border: 2px solid #66837e;
+  overflow: hidden;
+}
+
+.header > .emptySpace {
+  display: flex;
+  align-items: center;
+}
+
+.header > .emptySpace > button {
+  flex-shrink: 0;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburgerMenu {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 100px;
+  display: none;
+  flex-direction: column;
+}
+
+.hamburgerMenu.active {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .navigationMenu {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+}

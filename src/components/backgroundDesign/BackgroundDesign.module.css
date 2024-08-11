@@ -1,0 +1,32 @@
+.squareContainer {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.rectangle {
+  width: 100%;
+  height: 100%;
+}
+
+.firstColor {
+  background-color: #66837e;
+}
+
+.secondColor {
+  background-color: #9d4e2d;
+}
+
+.thirdColor {
+  background-color: #9dabb6;
+}
+
+.fourthColor {
+  background-color: #dd9857;
+}
+
+.fifthColor {
+  background-color: #495f4b;
+}
