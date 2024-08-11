@@ -21,7 +21,6 @@ function NavigationMenu() {
   useEffect(() => {
     window.addEventListener("resize", handleResize);
 
-    // Cleanup listener on unmount
     return () => {
       window.removeEventListener("resize", handleResize);
     };
@@ -29,7 +28,7 @@ function NavigationMenu() {
 
   useEffect(() => {
     if (windowWidth > 768) {
-      setIsMenuOpen(false); // Закрыть меню при увеличении экрана
+      setIsMenuOpen(false); 
     }
   }, [windowWidth]);
 
